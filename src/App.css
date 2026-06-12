@@ -17,6 +17,17 @@
   }
 }
 
+/* Layout helpers for sticky footer */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
 .hero {
   position: relative;
 
@@ -182,3 +193,4 @@
     border-right-color: var(--border);
   }
 }
+  
