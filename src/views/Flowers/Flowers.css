@@ -1,0 +1,15 @@
+.flowers-page {
+  padding: 40px;
+}
+
+.flowers-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flowers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
