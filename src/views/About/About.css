@@ -1,0 +1,25 @@
+.about-page {
+  padding: 50px;
+  text-align: center;
+}
+
+.about-page p {
+  width: 70%;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.about-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
